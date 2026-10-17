@@ -1,0 +1,18 @@
+VideoSaver cloud deployment (Render)
+
+1. Create/sign in to GitHub: https://github.com
+2. Create a NEW repository (for example: videosaver).
+3. Extract this ZIP and upload the CONTENTS of the VideoSaver folder to that repository.
+   Make sure app.py, requirements.txt, Procfile, apt.txt, render.yaml and templates/index.html
+   are at the repository root (templates is a folder).
+4. Open https://render.com and sign in with GitHub.
+5. Choose New + -> Blueprint (or New Web Service), select the repository and deploy.
+   If using Blueprint, Render reads render.yaml.
+6. After deployment, open the public URL Render gives you.
+
+Notes:
+- Free hosting can sleep when idle and may have temporary disk storage and resource limits.
+- MP3 conversion and merging require FFmpeg; apt.txt requests it on supported build environments.
+- Video download sites can fail when the source platform changes or blocks cloud-hosted requests.
+- Use only videos you own or are authorized to download, and follow the source site's terms.
+- Do not commit secrets or personal credentials.

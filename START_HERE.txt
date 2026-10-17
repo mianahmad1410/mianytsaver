@@ -1,0 +1,9 @@
+VIDEOSAVER — WINDOWS QUICK START
+
+1. Install Python 3.11+ from https://www.python.org/downloads/ and tick “Add Python to PATH”.
+2. Optional but recommended for MP3 conversion / merging formats: install FFmpeg from https://ffmpeg.org/download.html and ensure it is on PATH.
+3. Double-click RUN_WINDOWS.bat.
+4. Wait for the setup to finish, then open http://127.0.0.1:5000 in Chrome or Edge.
+5. Keep the black command window open while using the website. Press Ctrl+C in that window to stop it.
+
+This is a local app, not a standalone HTML file: YouTube's site does not expose downloadable quality options to a plain HTML page, so a small local Python backend is needed. Use only for videos you own or are authorized to download. Platform restrictions may prevent some URLs from working.
